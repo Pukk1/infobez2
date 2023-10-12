@@ -56,4 +56,4 @@ for b in C.split():
     sub_str_bytes = m.to_bytes(4, byteorder='big')
     sub_str = sub_str_bytes.decode('cp1251')
     res += sub_str
-print(f"message = {res}")
+print(f"res = {res}")
