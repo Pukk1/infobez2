@@ -29,9 +29,9 @@ while True:
     t = a + i
     print("t" + str(i) + "=" + str(t))
     b = t ** 2 - N
-    print("s" + str(i) + "=" + str(b))
+    print("b" + str(i) + "=" + str(b))
     b_sqrt = math.sqrt(b)
-    print("s_sqrt" + str(i) + "=" + str(b_sqrt))
+    print("b_sqrt" + str(i) + "=" + str(b_sqrt))
     i += 1
     if b_sqrt % 1 == 0:
         break
